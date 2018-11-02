@@ -1,0 +1,2 @@
+# gulp-pipe
+使用gulp配置将src中的js打包压缩，将less,scss等预编译工具编译成css文件打入dist目录中，做一个简单的单页面编译打包功能
