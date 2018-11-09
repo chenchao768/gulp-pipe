@@ -1,0 +1,31 @@
+{
+  "name": "gulp-pipe",
+  "version": "1.0.0",
+  "description": "使用gulp配置将src中的js打包压缩，将less,scss等预编译工具编译成css文件打入dist目录中，做一个简单的单页面编译打包功能",
+  "main": "gulpfiles.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenchao768/gulp-pipe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenchao768/gulp-pipe/issues"
+  },
+  "homepage": "https://github.com/chenchao768/gulp-pipe#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-jshint": "^2.1.0",
+    "gulp-less": "^4.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.1"
+  }
+}
