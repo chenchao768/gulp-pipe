@@ -1,0 +1,8 @@
+@import "../../../common/utils";
+@import "../../../common/variable";
+
+div {
+  font-size: px2rem(90);
+  background: $mainBgColor;
+  color: $mainFontColor;
+}

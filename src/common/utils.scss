@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/*
+* px 转 rem (默认基于750px设计稿) $base=50
+* 用法: width:px2rem(200)
+*/
+@function px2rem($px,$base:50){
+  @return $px / $base * 1rem;
+}
+
+/*
+* 多行文本省略号
+* 用法：在scss中 @include multilineEllipsis(2)
+*/
+@mixin multilineEllipsis ($line:2) {
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $line;
+  -webkit-box-orient: vertical;
+}
